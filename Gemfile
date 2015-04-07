@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Use pagination gem
+gem 'will_paginate'
+
 # Use twitter bootstrap with bootstrap-sass 
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'autoprefixer-rails'
