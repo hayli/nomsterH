@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Use simple form gem
+gem 'simple_form'
+
 # Use pagination gem
 gem 'will_paginate'
 

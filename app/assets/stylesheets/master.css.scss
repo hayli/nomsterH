@@ -17,19 +17,21 @@ h1, h2, h3, h4, h5, h6 {
 	padding:0;
 }
 
-body {
+.homepage {
 	background:url('/assets/littleknobs.png');/* Modern Georgia-based serif stack */
 	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-}
 
-.navbar-inverse {
-	background:url('/assets/triangles.png');
-	border-radius: 0;
-	box-shadow: 0px 1px 3px #2a2a2a;
-}
 
-.navbar-inverse .navbar-brand {
-	color: #e74c3c;
-	font-family: 'Amatic SC', cursive;
-	font-size: 30px;
+	.navbar-inverse {
+		background:url('/assets/triangles.png');
+		border-radius: 0;
+		box-shadow: 0px 1px 3px #2a2a2a;
+	}
+
+	.navbar-brand {
+		color: #e74c3c;
+		font-family: 'Amatic SC', cursive;
+		font-size: 30px;
+	}
+
 }
