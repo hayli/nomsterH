@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Use devise user authentication
+gem 'devise', '>= 3.2.4'
+
 # Use simple form gem
 gem 'simple_form'
 
