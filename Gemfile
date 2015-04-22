@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+# Use Figaro to store sensitive data and secure rails app configurations
+gem "figaro", ">= 1.0.0"
+
+# Use geocoder for geocoding
+gem 'geocoder'
+
 # Use devise user authentication
 gem 'devise', '>= 3.2.4'
 
