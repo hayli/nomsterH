@@ -36,6 +36,13 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.new-place {
-	
+.place-names {
+	a {
+		color: black;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: #e74c3c;
+	}
 }
