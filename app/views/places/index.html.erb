@@ -8,6 +8,13 @@
       <small><%= place.user.email %></small>
     <% end %>
 
+    <% if place.photos.present? %>
+      <div class="col-xs-12">
+        <br /><br />
+        <%= image_tag place.photos.last.picture, :class => "pics" %>
+      </div>
+    <% end %>
+
     <% if place.comments.present? %>
       <div class="col-xs-12">
         <blockquote class="comment-box">

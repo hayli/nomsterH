@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+# Use Fog gem
+gem "fog", "~> 1.3.1"
+
+# Use carrierwave for uploading image files
+gem 'carrierwave'
+
 # Use Figaro to store sensitive data and secure rails app configurations
 gem "figaro", ">= 1.0.0"
 
