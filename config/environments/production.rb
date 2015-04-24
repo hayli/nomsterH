@@ -1,5 +1,5 @@
 NomsterH::Application.configure do
-  # config.action_mailer.default_url_options = { :host => 'nomsterh-hayli.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'nomsterh-hayli.herokuapp.com' }
 
   ActionMailer::Base.smtp_settings = {
     :port           => ENV['MAILGUN_SMTP_PORT'],
