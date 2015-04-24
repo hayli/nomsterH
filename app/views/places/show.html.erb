@@ -73,7 +73,7 @@
   <% @place.photos.each do |photo| %>
     <div class="col-xs-12">
       <br />
-      <%= link_to place_photo_path(photo.place_id, photo.id), :method => :delete, :data => {:confirm => 'Are you sure you want to delete this?'}, :class => "links-general" do %>
+      <%= link_to place_photo_path(photo.place_id, photo.id), :method => :delete, :data => {:confirm => 'Are you sure you want to delete this?'}, :class => "links-imgs" do %>
         <i class="glyphicon glyphicon-remove-sign"></i>
       <% end %>
       <%= image_tag photo.picture, :class => "pics" %>
