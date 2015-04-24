@@ -36,7 +36,12 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.place-names {
+.place-listings {
+
+	p{
+		font-size: 18px;
+	}
+
 	a {
 		color: black;
 	}
@@ -90,4 +95,66 @@ h1, h2, h3, h4, h5, h6 {
 
 .pics {
 	width: 100%;
+}
+
+.links-general {
+		
+	color: black;
+
+	:hover {
+		text-decoration: none;
+		color: #F89406;
+	}
+
+	:active {
+		color: #6C7A89;
+	}
+		
+}
+
+.nomster-pagination {
+  background: #f1f1f1;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  padding: 1em;
+  cursor: default; 
+  position: absolute;
+  float: left;
+  width: 100%;
+
+  a, span {
+    padding: 0.2em 0.3em; 
+  }
+
+  .disabled {
+    color: #aaaaaa; 
+  }
+
+  .current {
+    font-style: normal;
+    font-weight: bold;
+    background-color: #bebebe;
+    display: inline-block;
+    width: 1.4em;
+    height: 1.4em;
+    line-height: 1.5;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    text-shadow: rgba(255, 255, 255, 0.8) 1px 1px 1px; 
+  }
+
+  a {
+    text-decoration: none;
+    color: black; 
+  }
+  
+  a:hover, a:focus {
+      text-decoration: underline; 
+  }
+
+}
+
+.pagination-footer {
+	padding: 0px;
 }
