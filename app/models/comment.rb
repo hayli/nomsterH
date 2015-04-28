@@ -4,7 +4,7 @@ class Comment < ActiveRecord::Base
   after_create :send_comment_email
 
   RATINGS = {
-    'one star'      => '1_star',
+    'one star'      => '1_star',                   
     'two stars'     => '2_stars',
     'three stars'   => '3_stars',
     'four stars'    => '4_stars',
