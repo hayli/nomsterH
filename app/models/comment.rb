@@ -16,7 +16,12 @@ class Comment < ActiveRecord::Base
   end
 
   def send_comment_email
-    NotificationMailer.comment_added(self).deliver
+    if @user
+      NotificationMailer.comment_added(self).deliver
+    end
   end
 
+  validates :message, :presence => true, :length => { :minimum => 4 }
+  validates :rating, :presence => true
+  
 end

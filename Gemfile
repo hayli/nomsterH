@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Use Factory girl for sample data in testing
+gem "factory_girl_rails", "~> 4.0"
+
 # Use Fog gem
 gem "fog", "~> 1.3.1"
 
