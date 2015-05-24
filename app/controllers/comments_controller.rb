@@ -3,8 +3,6 @@ class CommentsController < ApplicationController
   
   def create
     @place    = Place.find(params[:place_id])
-    @user     = @place.user
-
     @comment  = @place.comments.create(comment_params.merge(:user => current_user))
 
     if @comment.invalid?
